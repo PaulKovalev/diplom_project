@@ -21,5 +21,5 @@ from diplom_app.views import HomeView, ThankYouView
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', HomeView.as_view(), name='home'),
-    path('', ThankYouView.as_view(), name='thank_you'),
+    path('thank-you/', ThankYouView.as_view(), name='thank_you'),
 ]
